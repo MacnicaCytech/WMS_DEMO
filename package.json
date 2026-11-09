@@ -1,0 +1,17 @@
+{
+  "name": "wms-layout-review-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static WMS layout review with local demonstration data",
+  "scripts": {
+    "check": "node tools/check.mjs",
+    "build": "node tools/build.mjs",
+    "start": "node tools/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "linkedom": "0.18.12"
+  }
+}

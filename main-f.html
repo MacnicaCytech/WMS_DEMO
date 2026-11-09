@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-layout-demo="true"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'"><title>Job Desk | WMS Pulse | Design F</title>
+    <link rel="stylesheet" href="css/ui-review/design-f.css">
+</head>
+<body class="f-review f-app" data-dashboard="" data-demo-design="f" data-demo-page="main">
+    <a class="f-skip" href="#f-main">Skip to job desk</a>
+    <header class="f-header"><a href="main-f.html"><img class="f-company" src="images/logo/macnica-cytech.svg" alt="Macnica Cytech home"></a><a class="f-system" href="#" data-demo-unavailable="" aria-disabled="true" title="Unavailable in layout review"><img src="images/logo/logo1.png" alt="WMS - About Us"></a><span class="f-product">WMS <span>/</span> PULSE</span><div class="f-account"><span class="f-environment ">UAT</span><span class="f-user-icon"><i data-lucide="user-round" aria-hidden="true"></i></span><span>DEMO.REVIEW</span><form action="#" method="post" data-demo-logout=""><button class="f-icon" title="Sign out of WMS" aria-label="Sign out of WMS"><i data-lucide="log-out" aria-hidden="true"></i></button></form></div></header>
+    <div class="f-navigation-bar"><nav aria-label="WMS navigation"><ul class="f-navigation"><li><a href="main-f.html" aria-current="page"><i data-lucide="layout-dashboard" aria-hidden="true"></i> Job desk</a></li>    <li>
+            <details>
+                <summary>Inbound <i data-lucide="chevron-down" aria-hidden="true"></i></summary>
+                <ul>
+                        <li>
+            <a href="#" rel="noopener" data-demo-unavailable="" aria-disabled="true" title="Unavailable in layout review">Receiving <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+    </li>
+
+                </ul>
+            </details>
+    </li>
+    <li>
+            <details>
+                <summary>Inventory <i data-lucide="chevron-down" aria-hidden="true"></i></summary>
+                <ul>
+                        <li>
+            <a href="#" rel="noopener" data-demo-unavailable="" aria-disabled="true" title="Unavailable in layout review">Onhand enquiry <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+    </li>
+
+                </ul>
+            </details>
+    </li>
+    <li>
+            <details>
+                <summary>Outbound <i data-lucide="chevron-down" aria-hidden="true"></i></summary>
+                <ul>
+                        <li>
+            <a href="#" rel="noopener" data-demo-unavailable="" aria-disabled="true" title="Unavailable in layout review">Pick / Pack <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+    </li>
+    <li>
+            <a href="#" rel="noopener" data-demo-unavailable="" aria-disabled="true" title="Unavailable in layout review">Shipping <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+    </li>
+
+                </ul>
+            </details>
+    </li>
+</ul></nav>
+        <nav class="f-review-links" aria-label="Design review">
+            <span>Review</span>
+    <a href="main-g.html">G</a>
+    <a href="main-a.html">A</a>
+    <a href="main-b.html">B</a>
+    <a href="main-c.html">C</a>
+    <a href="main-e.html">E</a>
+    <a href="main-f.html" aria-current="page">F</a>
+<a href="#" rel="noopener" data-demo-unavailable="" aria-disabled="true" title="Unavailable in layout review">Current</a>
+        </nav>
+    </div>
+    <main id="f-main" class="f-workspace">
+        <div class="f-page-heading"><div><span class="f-eyebrow">MY WORKDAY <span>WAREHOUSE 116</span></span><h1>Your next move.</h1></div><div class="f-refresh"><span data-updated="" role="status"></span><label><input type="checkbox" data-auto-refresh="" checked=""> Auto refresh</label><button type="button" class="f-icon" data-refresh="" title="Refresh dashboard" aria-label="Refresh dashboard"><i data-lucide="refresh-cw" aria-hidden="true"></i></button></div></div>
+        <div class="f-errors" data-errors="" role="status"></div>
+        <dl class="f-metrics"><div><dt>My pending jobs</dt><dd data-pending-count="">--</dd><i data-lucide="move-up-right" aria-hidden="true"></i></div><div><dt>High priority</dt><dd data-high-count="">--</dd><i data-lucide="flame" aria-hidden="true"></i></div><div><dt>Allocated to me</dt><dd data-assigned-count="">--</dd><i data-lucide="clipboard-list" aria-hidden="true"></i></div><div><dt>On-hand records <small>Org 116</small></dt><dd data-inventory-count="">--</dd><i data-lucide="boxes" aria-hidden="true"></i></div></dl>
+        <div class="f-layout">
+            <section class="f-jobs" aria-labelledby="f-jobs-title">
+                <div class="f-section-heading"><h2 id="f-jobs-title">The job queue</h2><span data-list-count="" role="status"></span></div>
+                <div class="f-tabs" role="tablist" aria-label="Job views"><button type="button" id="f-queue-tab" role="tab" aria-selected="true" aria-controls="f-queue" data-view="queue">My jobs <span data-tab-pending="">--</span></button><button type="button" id="f-assigned-tab" role="tab" aria-selected="false" aria-controls="f-assigned" tabindex="-1" data-view="assigned">Assignments <span data-assigned-count="">--</span></button></div>
+                <section id="f-queue" role="tabpanel" aria-labelledby="f-queue-tab" data-panel="queue"><div class="f-toolbar"><div class="f-search"><i data-lucide="search" aria-hidden="true"></i><input type="search" data-task-search="" aria-label="Search jobs" placeholder="Task, reference or status"></div><select data-task-type="" aria-label="Filter task type"><option value="">All job types</option></select><label class="f-priority"><input type="checkbox" data-high-only=""><i data-lucide="flame" aria-hidden="true"></i> High priority</label></div><div class="f-job-list" data-tasks="" tabindex="0" aria-label="Pending jobs"></div></section>
+                <section id="f-assigned" role="tabpanel" aria-labelledby="f-assigned-tab" data-panel="assigned" hidden=""><div class="f-allocated" data-allocated=""></div></section>
+            </section>
+            <aside class="f-insights"><section aria-labelledby="f-pending-title"><div class="f-section-heading"><h2 id="f-pending-title">Pending by job type</h2><span>Current user</span></div><div class="f-bar"><canvas data-jobs-chart="" role="img" aria-label="Pending jobs by type"></canvas></div><div class="f-chart-values" data-job-values=""></div></section><section class="f-inventory-section" aria-labelledby="f-inventory-title"><div class="f-section-heading"><h2 id="f-inventory-title">Inventory mix</h2><span>Org 116</span></div><div class="f-inventory"><div class="f-pie"><canvas data-inventory-chart="" role="img" aria-label="Subinventory percentages of on-hand records"></canvas></div><div data-inventory-legend=""></div></div><small>Share of on-hand records <span data-inventory-time=""></span></small></section></aside>
+        </div>
+        <div class="f-info-band"><section class="f-weather" aria-labelledby="f-weather-title"><div class="f-section-heading"><h2 id="f-weather-title">Weather</h2><select data-weather-city="" aria-label="Weather location"><option value="hk">Hong Kong</option><option value="sg">Singapore</option><option value="tk">Tokyo</option></select></div><div class="f-weather-reading"><i data-lucide="cloud-sun" aria-hidden="true"></i><strong data-weather-temperature="">--</strong><span>°C</span><div><p data-weather-condition="" role="status">Loading weather</p><small data-weather-time=""></small></div><button type="button" class="f-icon" data-weather-refresh="" title="Refresh weather" aria-label="Refresh weather"><i data-lucide="refresh-cw" aria-hidden="true"></i></button></div></section><section class="f-announcements" aria-labelledby="f-news-title"><div class="f-section-heading"><h2 id="f-news-title">Announcements</h2><i data-lucide="megaphone" aria-hidden="true"></i></div><div class="f-news" data-news="" tabindex="0" aria-label="Announcements"></div></section></div>
+    </main>
+    <footer class="f-footer">Copyright © 2017-2028 Macnica Cytech Limited. All rights reserved.</footer>
+    <dialog class="f-task-drawer" data-task-dialog="" aria-labelledby="f-detail-title"><div class="f-drawer-heading"><div><span class="f-eyebrow">WMS / PULSE</span><h2 id="f-detail-title">Task details</h2></div><button type="button" class="f-icon" data-close-task="" title="Close task details" aria-label="Close task details"><i data-lucide="x" aria-hidden="true"></i></button></div><div class="f-drawer-content" data-task-detail=""></div><div class="f-drawer-actions"><a class="f-primary" data-task-link="" target="_blank" rel="noopener">Open WMS task <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div></dialog>
+    <script type="application/json" data-snapshot="">{"userName":"DEMO.REVIEW","environment":"UAT","operatingUnit":"81","warehouse":"116","operatingUnitOptions":[{"value":"81","text":"Macnica Cytech HK"}],"warehouseOptions":[{"value":"116","text":"Hong Kong"}],"retrievedAt":"2026-11-09T05:43:01.2023278\u002B00:00","tasksAvailable":true,"menu":[{"label":"Inbound","url":null,"children":[{"label":"Receiving","url":"#","children":[]}]},{"label":"Inventory","url":null,"children":[{"label":"Onhand enquiry","url":"#","children":[]}]},{"label":"Outbound","url":null,"children":[{"label":"Pick / Pack","url":"#","children":[]},{"label":"Shipping","url":"#","children":[]}]}],"tasks":[{"assignedAt":"29/Oct/2026 08:15","detail":"SHIP_PICK: CSI-261029-001 / SI-0042","jobType":"Pick","status":"Pending","priority":"High","url":"#"},{"assignedAt":"29/Oct/2026 08:28","detail":"SHIP_PACK: CSI-261029-006 / SI-0048","jobType":"Pack","status":"In progress","priority":"Normal","url":"#"},{"assignedAt":"29/Oct/2026 08:42","detail":"UNLOAD: RCV-261029-0014","jobType":"Unload","status":"Pending","priority":"High","url":"#"},{"assignedAt":"29/Oct/2026 09:00","detail":"PUTAWAY: RCV-261029-0011","jobType":"Putaway","status":"Pending","priority":"Normal","url":"#"},{"assignedAt":"29/Oct/2026 09:12","detail":"SHIP_PICK: CSI-261029-012 / SI-0055","jobType":"Pick","status":"Pending","priority":"Normal","url":"#"},{"assignedAt":"29/Oct/2026 09:20","detail":"ALLOCATION: CSI-261029-018","jobType":"Allocation","status":"Pending","priority":"Low","url":null},{"assignedAt":"29/Oct/2026 09:25","detail":"SHIP: CSI-261029-020","jobType":"Ship","status":"Pending","priority":"Normal","url":null},{"assignedAt":"29/Oct/2026 09:30","detail":"SHIP_PACK: CSI-261029-021 / SI-0062","jobType":"Pack","status":"Pending","priority":"Normal","url":"#"}],"allocatedTasks":[{"assignDate":"29/Oct/2026 08:15","message":"SUPERVISOR has assigned Pick: CSI-261029-001 to you.","requestDate":"2026-10-29","priority":"3"},{"assignDate":"29/Oct/2026 08:28","message":"SUPERVISOR has assigned Pack: CSI-261029-006 to you.","requestDate":"2026-10-29","priority":"2"},{"assignDate":"29/Oct/2026 08:42","message":"SUPERVISOR has assigned Unload: RCV-261029-0014 to you.","requestDate":"2026-10-29","priority":"3"}],"pendingJobs":[{"jobType":"Allocation","count":1},{"jobType":"Pick","count":2},{"jobType":"Pack","count":2},{"jobType":"Ship","count":1},{"jobType":"Unload","count":1},{"jobType":"Putaway","count":1}],"inventory":{"organizationId":116,"retrievedAt":"2026-11-09T05:43:01.2010968\u002B00:00","slices":[{"subinventory":"HK-FREE","records":12480},{"subinventory":"HK-ALLOCATED","records":5710},{"subinventory":"HK-QC","records":3620},{"subinventory":"HK-HOLD","records":2190}],"totalRecords":24000},"announcements":[],"errors":[]}</script>
+    <script src="demo.js"></script><script src="js/ui-review/vendor/design-f/lucide.min.js"></script><script src="js/ui-review/vendor/design-f/chart.umd.min.js"></script><script src="js/ui-review/design-f.js"></script>
+
+</body></html>

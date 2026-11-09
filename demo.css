@@ -1,0 +1,35 @@
+.demo-login-error {
+    margin: 0 0 16px;
+    padding: 10px 12px;
+    border: 1px solid #d7a09a;
+    border-radius: 4px;
+    background: #fff1ef;
+    color: #8b2920;
+    font-size: 14px;
+}
+.demo-login-error[hidden] { display: none; }
+.demo-notice {
+    box-sizing: border-box;
+    width: min(420px, calc(100vw - 32px));
+    max-height: calc(100vh - 32px);
+    padding: 24px;
+    border: 1px solid #adb6bc;
+    border-radius: 4px;
+    background: #fff;
+    color: #25303a;
+    font: inherit;
+}
+.demo-notice::backdrop { background: #14212966; }
+.demo-notice h2 { margin: 0 0 10px; font-size: 18px; }
+.demo-notice p { margin: 0 0 20px; font-size: 14px; }
+.demo-notice button {
+    float: right;
+    min-height: 36px;
+    padding: 7px 18px;
+    border: 1px solid #475966;
+    border-radius: 4px;
+    background: #354c59;
+    color: #fff;
+    font: inherit;
+    cursor: pointer;
+}
